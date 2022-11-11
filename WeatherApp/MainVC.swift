@@ -84,6 +84,7 @@ class MainVc: UIViewController {
                     
                     self.weatherImageView.tintColor = UIColor.blue
                     self.adviceLabel.text = "Don't forget your Coat!"
+                    self.tempLabel.tintColor = .blue
                 case 10.0...20.0:
                     if let myImage = UIImage(systemName: "cloud.rain.fill") {
                         let tintableImage = myImage.withRenderingMode(.alwaysTemplate)
@@ -92,6 +93,7 @@ class MainVc: UIViewController {
                     
                     self.weatherImageView.tintColor = UIColor.white
                     self.adviceLabel.text = "Don't forget your Umbrella!"
+                    self.tempLabel.tintColor = .white
                 default:
                     if let myImage = UIImage(systemName: "sun.max.fill") {
                         let tintableImage = myImage.withRenderingMode(.alwaysTemplate)
@@ -100,6 +102,8 @@ class MainVc: UIViewController {
                     
                     self.weatherImageView.tintColor = UIColor.systemOrange
                     self.adviceLabel.text = "Don't forget your bottle of water! and ofcourse your sunglasses."
+                    self.tempLabel.tintColor = .orange
+                    
                 }
                 
             }
