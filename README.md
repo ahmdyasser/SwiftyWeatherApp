@@ -4,7 +4,7 @@
 - Getting famalier with alamofire Pod.
 - How to working with APIs.
 - Encodable & Decodable protocols
-- JsonEncoder & JsonDecoder classes
+- JSONEncoder & JSONDecoder classes
 
 ## App Preview
 
