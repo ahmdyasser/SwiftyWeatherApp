@@ -12,6 +12,7 @@ enum NetworkError: Error {
     case badURL
     // other possible cases
 }
+
 class NetworkingManager {
     func getWeather (of city: String, completion: @escaping (Result<WeatherModel, NetworkError>) -> Void) {
         
