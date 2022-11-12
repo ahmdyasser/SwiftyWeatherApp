@@ -5,6 +5,7 @@
 //  Created by Ahmad Yasser on 11/11/2022.
 //
 
+import Foundation
 import Alamofire
 
 enum NetworkError: Error {
