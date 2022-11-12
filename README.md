@@ -19,6 +19,8 @@
 - Converted temperature units using Apple's `Measurement` class.
 - Networking class is UI independent.
 - Using `guard let` is more convienent than `if let` in the cases I have fixed. 
+- Removed Cocoapods and used SPM instead, you should never include your pods files inside your project, they will be fetched on every local machine if it ran `pod install`. This can be solved by adding the pods content inside the `.gitignore` file. 
+- Rely more on enums insted of strings snice you can easilty miss-spell some.
 
 
 
